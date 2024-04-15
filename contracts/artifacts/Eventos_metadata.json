@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "condicion",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "condicion",
+						"type": "bool"
+					}
+				],
+				"name": "NotificacionDeCondicion",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numeros",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resultado",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eventos.sol": "Eventos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eventos.sol": {
+			"keccak256": "0x9ab2198a600173c2f8044833e10c362d2b3a89fe63c8dd356cb45d482ab7b61f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be59c8863809b0c6a2cd8116bb6089086c320fbefbce4a0c6b423c2cfb6e26a3",
+				"dweb:/ipfs/QmWvpDTiyyCMoriD36scXEDqCp8YiNczUFDXXnKTJMgnCs"
+			]
+		}
+	},
+	"version": 1
+}

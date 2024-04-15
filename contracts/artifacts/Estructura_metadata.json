@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "estaFirmado",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Estructura.sol": "Estructura"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Estructura.sol": {
+			"keccak256": "0xf5f6b3d81267446e87a68d0ba8498b51973a3220d1d8d9660a796e5344848371",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://82959ef744ed598212f20525423a9cdf6b04d401ec9c01c26cb3dc5b67180955",
+				"dweb:/ipfs/QmQjMdUbHQYtvYycSVuj1nouzExBxkG7GAViDFHGYSGVyh"
+			]
+		}
+	},
+	"version": 1
+}

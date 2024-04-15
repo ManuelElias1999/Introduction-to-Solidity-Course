@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "palabra",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Almacenamiento.sol": "Almacenamiento"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Almacenamiento.sol": {
+			"keccak256": "0x26221b33a08d5e79cb85fb70ccf498d562056392d9d35380a77c5dc3fae4f72f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://231224e7683203a71e2e914382d48ca9f2c0a2c69928762b2b172d6aa76406d6",
+				"dweb:/ipfs/QmNm6pBbwWw4Q4N77RLuY1x6rrsbb3FTFstxTn4naLpyp3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombreNuevo",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "nombreOwner",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					}
+				],
+				"name": "suma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					}
+				],
+				"name": "sumar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Herencia.sol": "Herencia"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Herencia.sol": {
+			"keccak256": "0x096b2e56a1c87a64430500d5bf07536bb3da41cafa85a4f15712536ba0721132",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b52225228810d3eadf2cac012409b2695adc11bd2eba871c0d0fa960dfb5a1dd",
+				"dweb:/ipfs/QmWGuXvfmpAZsFmC6YAQv6LkdMJN8h1JjJLVubwid7TpRz"
+			]
+		},
+		"contracts/Modificadores.sol": {
+			"keccak256": "0xfc96bc841499a3637d0879975bca3261db5e09f91f986ac811a6d66070dc27b6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e8c3633514e760e55e30da16d4f42e8f0ff58d6c87b64d60c238cac3c1345336",
+				"dweb:/ipfs/QmatqeTEv2ogYSEoqbeyZ2XoZNS4UJRi2g3axHzDhG6y45"
+			]
+		},
+		"contracts/interface.sol": {
+			"keccak256": "0xca4bb3d3b3004cb080902b57d6c22e56dc76bf941e1de6d625bf531db9d8fe49",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2c47c7784f3a9bc316ed9c691f387719d0d192b4b8376c64a5edc86cecc0af52",
+				"dweb:/ipfs/QmT1k74KrHKSnioxoSz6UR1z7e7Frwax2ZQoeT6EqaF37S"
+			]
+		}
+	},
+	"version": 1
+}

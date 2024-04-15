@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "entrada",
+						"type": "uint256"
+					}
+				],
+				"name": "asignarNumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/Gas.sol": "Gas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/Gas.sol": {
+			"keccak256": "0x91c0c231c867e960fbb74780e5cdd868d935b22462c512065814c5433eae671e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c5365da3866d9a54cec026c10c2bac732582cfa7cc0907754dd0acd8c879e406",
+				"dweb:/ipfs/QmejBbgi7RmUtvPXG6KwUmeFmvAbMwjeKYY2sD8vAx6VT9"
+			]
+		}
+	},
+	"version": 1
+}

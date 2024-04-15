@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					}
+				],
+				"name": "sumaNumeros",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Importacion.sol": "Importacion"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b",
+				"dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ"
+			]
+		},
+		"contracts/Importacion.sol": {
+			"keccak256": "0x371c58c91c4c1537891d9c5d362eb8c901c395f784be63a1871c46a8b63b2d95",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27f76e33c272dbc368ece5f990a39d0345e0c2b3e7f9cfc7909c25a5cd816fac",
+				"dweb:/ipfs/QmRYmvGyMYUNeoNys6CMxXXbWoiE39LvtyUFFRNVZkqNua"
+			]
+		}
+	},
+	"version": 1
+}

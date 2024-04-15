@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "nombreOwner",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					}
+				],
+				"name": "suma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Modificadores.sol": "Modificadores"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Modificadores.sol": {
+			"keccak256": "0xfc96bc841499a3637d0879975bca3261db5e09f91f986ac811a6d66070dc27b6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e8c3633514e760e55e30da16d4f42e8f0ff58d6c87b64d60c238cac3c1345336",
+				"dweb:/ipfs/QmatqeTEv2ogYSEoqbeyZ2XoZNS4UJRi2g3axHzDhG6y45"
+			]
+		}
+	},
+	"version": 1
+}

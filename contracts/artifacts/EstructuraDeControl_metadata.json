@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "condicion",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numeros",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resultado",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Variables.sol": "EstructuraDeControl"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Variables.sol": {
+			"keccak256": "0x116024219a1f3d8e04aba49dc219c8004cf505d95054339af649cf8a744bacfb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e7a42d30ff8ce3926a12dcc613c91616b572e86680c78d52271c37a369cf9761",
+				"dweb:/ipfs/QmaVwXiwoB5fjXK6zuDAijLknfKNDhHNiR3euW6psy1K3Q"
+			]
+		}
+	},
+	"version": 1
+}
